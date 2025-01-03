@@ -116,6 +116,7 @@ public class Caeserfrm extends javax.swing.JFrame {
                 if(chucnang == "Mã Hóa" ){
                     jLabel1.setText("Bản Mã");
                     txtResut.setText(Caeser.encrypt(txtValue.getText(), key));
+                    
                 }
                 else{
                     jLabel1.setText("Bản rõ");
